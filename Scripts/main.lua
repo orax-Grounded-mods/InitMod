@@ -2,7 +2,7 @@
 ---@type Mod_Config
 local config = {
     LOG_LEVEL = "INFO", -- ALL TRACE DEBUG INFO WARN ERROR FATAL OFF
-    -- MIN_LEVEL_OF_FATAL_ERROR = "WARN",
+    MIN_LEVEL_OF_FATAL_ERROR = "WARN",
     -- FORCE_REAPPLY_ON_MOD_RESTART = true,
     -- OPTIONS_FILES = [[
     --     Scripts\examples\options_ex_simple.lua |
